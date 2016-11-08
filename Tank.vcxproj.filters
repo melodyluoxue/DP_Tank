@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战">
+      <UniqueIdentifier>{0f13f71a-fa5e-4ad3-bdca-b07176032066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体">
+      <UniqueIdentifier>{812f9ac5-e146-4ba9-bb9c-68686d937ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\场景">
+      <UniqueIdentifier>{6dd19227-4b50-4dbf-8083-9532e2558d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\场景\关卡场景">
+      <UniqueIdentifier>{df6e1c8d-fdbb-483c-a101-be32ed462337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\坦克">
+      <UniqueIdentifier>{1e4f8366-ace0-4292-99af-dfb6119f03e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\坦克\敌方坦克">
+      <UniqueIdentifier>{b69d6bf2-c772-4b11-a9e3-fa6f715a2634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\坦克\玩家坦克">
+      <UniqueIdentifier>{5930b9f0-386c-4f85-8e22-28a04154ecef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\子弹">
+      <UniqueIdentifier>{f59f848c-3577-4778-901d-88c5ea5e391c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\管理器">
+      <UniqueIdentifier>{a3ee16a7-b9d5-4335-af91-11a3962ca2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\实体基类">
+      <UniqueIdentifier>{44730433-f0ef-4aa0-949d-6bd0252e68be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\管理器\墙管理器">
+      <UniqueIdentifier>{01d6e5c5-1c19-4ac3-b1ee-45f5f30c479f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\墙">
+      <UniqueIdentifier>{9428da55-2834-419d-982b-c45cda2ba4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\坦克\动作、方向枚举量的定义">
+      <UniqueIdentifier>{de47e9f9-142a-4d41-8151-d5b8c5367af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\实体\坦克\坦克大类">
+      <UniqueIdentifier>{ade7964a-0823-4257-b64f-c0b78ea3a2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\场景\帮助场景">
+      <UniqueIdentifier>{6da0a0b4-c444-4523-980d-e62bd042b69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\坦克大战\管理器\子弹管理器">
+      <UniqueIdentifier>{e1b09bdf-b0fd-40c3-ac5c-481bac495a94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Classes\坦克大战\场景\关卡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Classes\坦克大战\实体\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Classes\坦克大战\实体\实体基类</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Classes\坦克大战\管理器\子弹管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Classes\坦克大战\实体\墙</Filter>
+    </ClCompile>
+    <ClCompile Include="WallManager.cpp">
+      <Filter>Classes\坦克大战\管理器\墙管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTank.cpp">
+      <Filter>Classes\坦克大战\实体\坦克\敌方坦克</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Classes\坦克大战\实体\坦克\坦克大类</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTank.cpp">
+      <Filter>Classes\坦克大战\实体\坦克\玩家坦克</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene.cpp">
+      <Filter>Classes\坦克大战\场景\帮助场景</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene2.cpp">
+      <Filter>Classes\坦克大战\场景\帮助场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Classes\坦克大战\场景\关卡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Classes\坦克大战\实体\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Classes\坦克大战\实体\实体基类</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Classes\坦克大战\管理器\子弹管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Classes\坦克大战\实体\墙</Filter>
+    </ClInclude>
+    <ClInclude Include="WallManager.h">
+      <Filter>Classes\坦克大战\管理器\墙管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>Classes\坦克大战\实体\坦克\敌方坦克</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINE_TANK.h">
+      <Filter>Classes\坦克大战\实体\坦克\动作、方向枚举量的定义</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Classes\坦克大战\实体\坦克\坦克大类</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTank.h">
+      <Filter>Classes\坦克大战\实体\坦克\玩家坦克</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene.h">
+      <Filter>Classes\坦克大战\场景\帮助场景</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene2.h">
+      <Filter>Classes\坦克大战\场景\帮助场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
